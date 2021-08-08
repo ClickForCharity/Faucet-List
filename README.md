@@ -1,5 +1,6 @@
 # Faucet-List
 **A WordPress Plug-In to make a user-controlled link list.**
+
 This would be a useful addition to the clickforcharity.net site, so that users can get the most out of faucets etc. Using a list site that is now gone, I found I could double the income for the time spent. It saves wasting time visiting sites that are not yet ready or forgetting to visit ones that are. Much more efficient.
 
 *It’s a user filled list of sites with a timer set for each one.
