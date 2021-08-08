@@ -8,5 +8,6 @@ This would be a useful addition to the [clickforcharity.net](https://clickforcha
 * Can set up a few with our reflinks to start with
 * If users keep the page open that will get us more JSEcoin and TUBE. We can see which sites are most popular.
 * Links will have clickforcharity in the http_referer header so sites will see they are getting traffic from us.
+
 There is a page set up on the site using a custom plug-in. It will only work properly for logged-in users so I also need to find a way to make it only available to logged in users. Maybe the existing youzer plug-in can do that, I don’t want to install the Members plug-in just for that.
 
