@@ -11,5 +11,5 @@ This would be a useful addition to the [clickforcharity.net](https://clickforcha
 
 There is a page set up on the site using a custom plug-in. It will only work properly for logged-in users so I also need to find a way to make it only available to logged in users. I don’t want to install the Members plug-in just for that.
 
-There is some more info including a to-do list at [nimno.net] (https://nimno.net/sites/clickforcharity-net/faucet-list-with-timer/)
+There is some more info including a to-do list at [nimno.net](https://nimno.net/sites/clickforcharity-net/faucet-list-with-timer/)
 
