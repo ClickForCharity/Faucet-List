@@ -14,7 +14,7 @@ function faucetlist_table(){
 
     $charset_collate = $wpdb->get_charset_collate();
     $tablename = $wpdb->prefix."faucetlist";
-    $sql = "CREATE TABLE $tablename (
+    $sql = "CREATE TABLE IF NOT EXISTS $tablename (
 	  id mediumint(11) NOT NULL AUTO_INCREMENT,
 	  name varchar(80) NOT NULL,
 	  url varchar(80) NOT NULL,
@@ -31,10 +31,6 @@ register_activation_hook( __FILE__, 'faucetlist_table' );
 
 register_deactivation_hook( __FILE__, 'my_plugin_remove_database' );
 function my_plugin_remove_database() {
-    global $wpdb;
-    $table_name = $wpdb->prefix . 'faucetlist';
-    $sql = "DROP TABLE IF EXISTS $table_name";
-    $wpdb->query($sql);
     delete_option("my_plugin_db_version");
 }
 
@@ -211,7 +207,7 @@ function faucet_script(){
         };
 
     </script>
-    <?php 
+    <?php
 
     // Add record
     if(isset($_POST['but_submit'])){
